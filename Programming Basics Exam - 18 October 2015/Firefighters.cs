@@ -24,7 +24,6 @@ namespace ProgrammingBasic
 						if (line[i] == 'K' && p > 0)
 						{
 							kids++;
-
 							p--;
 						}
 						else if (line[i] == 'A' && p > 0)
