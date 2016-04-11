@@ -1,15 +1,14 @@
 using System;
 
-namespace CodingExam
+namespace ProgrammingExercises
 {
-	class DrawFort
+	class Program
 	{
 		static void Main(string[] args)
 		{
-			int n = int.Parse(Console.ReadLine());
+			var n = int.Parse(Console.ReadLine());
 			int col = n / 2;
 			int mid = 2 * n - 2 * col - 4;
-			
 			if (n < 5)
 			{
 				mid = 0;
