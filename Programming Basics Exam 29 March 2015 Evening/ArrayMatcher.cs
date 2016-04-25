@@ -2,7 +2,7 @@ using System;
 
 namespace ProgrammingBasicExam
 {
-	class Program
+	class ArrayMatcher
 	{
 		static void Main(string[] args)
 		{
